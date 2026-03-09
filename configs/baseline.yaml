@@ -1,0 +1,18 @@
+seed: 1234
+data_dir: data
+subset_path: assets/splits/mnist_eval_100.json
+
+mlp_config: configs/mlp.yaml
+cnn_config: configs/cnn.yaml
+
+pgd:
+  eps: 0.03
+  steps: 40
+  step_size: 0.01
+  random_start: true
+
+milp:
+  eps: 0.03
+  solver: auto
+  time_limit: 30
+  max_samples: 5

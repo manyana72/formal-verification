@@ -1,0 +1,12 @@
+seed: 1234
+run_name: cnn_small_mnist
+data_dir: data
+batch_size: 128
+epochs: 3
+lr: 0.001
+weight_decay: 0.0
+num_workers: 0
+device: cpu
+
+model:
+  type: cnn_small
