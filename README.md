@@ -1,4 +1,4 @@
-## nnverify: MNIST baseline, PGD attacks, and MILP verification
+## Thesis on Formal Verification of Neural Networks
 
 This repository implements the following:
 
