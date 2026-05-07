@@ -1,10 +1,10 @@
-## nnverify: MNIST baseline, PGD attacks, and MILP verification
+## Thesis on Formal Verification of Neural Networks
 
-This repository implements the WP0–WP2 baseline for your thesis:
+This repository implements the following:
 
-- **WP0**: reproducible environment and fixed MNIST evaluation split.
-- **WP1**: training MNIST MLP + tiny CNN, and PGD \( \ell_\infty \) evaluation on a fixed subset.
-- **WP2**: MILP-based robustness verification for a ReLU MLP using IBP-tight big‑M bounds, with automatic solver backend selection (Gurobi if available, otherwise OR-Tools CBC).
+- Create a reproducible environment and fixed MNIST evaluation split.
+- Training MNIST MLP + tiny CNN, and PGD \( \ell_\infty \) evaluation on a fixed subset.
+- MILP-based robustness verification for a ReLU MLP using IBP-tight big‑M bounds, with automatic solver backend selection.
 
 ### Install
 
